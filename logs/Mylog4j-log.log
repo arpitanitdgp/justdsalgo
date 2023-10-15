@@ -248,3 +248,39 @@
 [INFO ]2023-10-0917:42:49.920[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet86 "and Password as " sdet86batch" 
 [INFO ]2023-10-0917:42:50.165[main]stepDefinitions.signInPageSteps1)-User clicks on login button
 [INFO ]2023-10-0917:42:50.166[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Invalid Username and Password
+[INFO ]2023-10-1518:08:07.581[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:08.198[main]stepDefinitions.signInPageSteps1)-User Enter username as "  "and Password as " " 
+[INFO ]2023-10-1518:08:12.274[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:12.325[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " " 
+[INFO ]2023-10-1518:08:16.459[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:16.526[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpita@1234567" 
+[INFO ]2023-10-1518:08:20.450[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:20.489[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpi12" 
+[INFO ]2023-10-1518:08:25.194[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:25.235[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " "123456789"" 
+[INFO ]2023-10-1518:08:29.872[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:29.912[main]stepDefinitions.signInPageSteps1)-User Enter username as "  "and Password as " Arpita@1234567" 
+[INFO ]2023-10-1518:08:33.940[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:33.987[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpita@1234567" 
+[INFO ]2023-10-1518:08:38.599[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-10-1518:08:38.655[main]stepDefinitions.signInPageSteps1)-User Enter username as " null "and Password as " Arpita@12345678" 
+[INFO ]2023-10-1518:09:42.921[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-10-1518:09:43.444[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " " 
+[INFO ]2023-10-1518:09:43.605[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-10-1518:09:43.605[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-10-1518:09:43.758[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-10-1518:09:47.773[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-10-1518:09:47.824[main]stepDefinitions.signInPageSteps1)-User Enter username as " username "and Password as " sdet84batch" 
+[INFO ]2023-10-1518:09:47.986[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-10-1518:09:47.986[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-10-1518:09:48.547[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-10-1518:09:53.916[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-10-1518:09:53.954[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet86 "and Password as " username" 
+[INFO ]2023-10-1518:09:54.103[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-10-1518:09:54.104[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-10-1518:09:54.603[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-10-1518:09:58.326[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-10-1518:09:58.375[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-10-1518:09:58.521[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-10-1518:09:58.521[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-10-1518:09:59.411[main]stepDefinitions.signInPageSteps1)-Actual Message :  You are logged in

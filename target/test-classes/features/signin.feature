@@ -1,6 +1,6 @@
 Feature: SignIn Page
 
-@invalidlogintest
+@test
 Scenario Outline: User on login page and login with invalid inputs from Excel "<Sheetname>" and 
    <RowNumber>
     Given The user is on signin page
@@ -16,7 +16,7 @@ Scenario Outline: User on login page and login with invalid inputs from Excel "<
       | Sheet1    |         2 |
       
 
-@validlogintest
+@test
 Scenario Outline: User on login page and login with valid inputs from Excel "<Sheetname>" and 
    <RowNumber>
     Given The user is on signin page

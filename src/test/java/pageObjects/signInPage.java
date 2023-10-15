@@ -19,7 +19,7 @@ public class signInPage extends BaseClass {
 
 	By signInLink = By.xpath("//a[contains(text(), 'Sign in')]");
 	By loginBtn = By.xpath("//input[@type='submit' and @value='Login']");
-	By errorMsg = By.xpath("//div[contains(text(),'Invalid Username and Password')]");
+	By errorMsg = By.xpath("//div[contains(text(), 'Invalid Username and Password')]");
 	By loggedInMsg = By.xpath("//div[contains(text(), 'You are logged in')]");
 	By usernameField = By.xpath("//input[@id='id_username']");
 	By passwdField = By.xpath("//input[@id='id_password']");
@@ -33,7 +33,7 @@ public class signInPage extends BaseClass {
 	}
 	
 	public String getErrorMsg() {
-		return driver.findElement(errorMsg).getText();
+		return driver.findElement(passwdField).getAttribute("validationMessage");
 	}
 	
 	public String getLoggedInMsg() {

@@ -7,4 +7,3 @@ Scenario: The User clicks Get Started button on landing page
  Then User clicks Get Started button
  And User lands on Home page
  
- 

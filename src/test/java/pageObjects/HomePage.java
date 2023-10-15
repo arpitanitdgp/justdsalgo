@@ -60,6 +60,7 @@ public class HomePage extends BaseClass {
 
 	public String verifyPage() {
 		return driver.getCurrentUrl();
-		}
+//		}
 	}
 
+}

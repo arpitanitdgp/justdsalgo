@@ -10,112 +10,145 @@ public class ConfigFileReader {
 
 	private Properties properties;
 
-	private final String configFilePath= "configs//config.properties";
+	private final String configFilePath = "configs//config.properties";
 
 	public ConfigFileReader() {
 
+		File ConfigFile = new File(configFilePath);
 
-	File  ConfigFile=new File(configFilePath);
+		try {
 
+			FileInputStream configFileReader = new FileInputStream(ConfigFile);
 
-	try {
+			properties = new Properties();
 
-	FileInputStream configFileReader=new FileInputStream(ConfigFile);
+			try {
 
-	      properties = new Properties();
+				properties.load(configFileReader);
 
+				configFileReader.close();
 
-	try {
+			} catch (IOException e)
 
-	      properties.load(configFileReader);
+			{
 
-	      configFileReader.close();
+				System.out.println(e.getMessage());
 
-	    } catch (IOException e) 
+			}
 
-	      {
+		} catch (FileNotFoundException e)
 
-	        System.out.println(e.getMessage());
+		{
 
-	      }
+			System.out.println(e.getMessage());
 
-	  }  catch (FileNotFoundException e) 
+			throw new RuntimeException("config.properties not found at config file path " + configFilePath);
 
-	      {
+		}
 
-	        System.out.println(e.getMessage());
-
-	throw new RuntimeException("config.properties not found at config file path " + configFilePath);
-
-	      }
-
-	  }
+	}
 
 	public String getApplicationUrl() {
 
-	String applicationurl= properties.getProperty("url.base");
+		String applicationurl = properties.getProperty("url.base");
 
-	if(applicationurl != null)
+		if (applicationurl != null)
 
-	return applicationurl;
+			return applicationurl;
 
-	else
+		else
 
-	throw new RuntimeException("Application url not specified in the config.properties file.");
+			throw new RuntimeException("Application url not specified in the config.properties file.");
 
 	}
-	
+
 	public String getHomePageUrl() {
 
-		String applicationurl= properties.getProperty("url.homepage");
+		String applicationurl = properties.getProperty("url.homepage");
 
-		if(applicationurl != null)
+		if (applicationurl != null)
 
-		return applicationurl;
+			return applicationurl;
 
 		else
 
-		throw new RuntimeException("Application url not specified in the config.properties file.");
+			throw new RuntimeException("Application url not specified in the config.properties file.");
 
-		}
-	
+	}
+
 	public String getBrowser() {
 
-		String browser= properties.getProperty("browser");
+		String browser = properties.getProperty("browser");
 
+		if (browser != null)
 
-		if(browser != null)
-
-		return browser;
+			return browser;
 
 		else
 
-		throw new RuntimeException("browser not specified in the config.properties file.");
+			throw new RuntimeException("browser not specified in the config.properties file.");
 
-		}
-	
+	}
+
 	public String getRegisterPageUrl() {
-		String applicationurl= properties.getProperty("url.registerpage");
+		String applicationurl = properties.getProperty("url.registerpage");
 
-		if(applicationurl != null)
+		if (applicationurl != null)
 
-		return applicationurl;
+			return applicationurl;
 
 		else
 
-		throw new RuntimeException("Application url not specified in the config.properties file.");
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+
+	public String getLoginPageUrl() {
+		String applicationurl = properties.getProperty("url.loginpage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+
+	public String getDSPageUrl() {
+		String applicationurl = properties.getProperty("url.dspage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+
+	public String getTextEditorPageUrl() {
+		String applicationurl = properties.getProperty("url.texteditorpage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
 	
-	public String getLoginPageUrl() {
-		String applicationurl= properties.getProperty("url.loginpage");
+	public String getpracticeQuesPageUrl() {
+		String applicationurl = properties.getProperty("url.practicequespage");
 
-		if(applicationurl != null)
+		if (applicationurl != null)
 
-		return applicationurl;
+			return applicationurl;
 
 		else
 
-		throw new RuntimeException("Application url not specified in the config.properties file.");
+			throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
+	
 
 }

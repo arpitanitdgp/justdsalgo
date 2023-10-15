@@ -6,12 +6,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import fileReader.ConfigFileReader;
+
+
 public class Helper {
- private static Helper Helper;
+ private static Helper Helper;    
     private static WebDriver driver ;
     public final static int TIMEOUT = 2;
 	ConfigFileReader configFileReader;
+     
     private Helper() {
     	String projectPath = System.getProperty("user.dir");
 		System.setProperty("WebDriver.chrome.driver", projectPath + "src\\test\\resources\\drivers\\chromedriver.exe");        driver = new ChromeDriver();
@@ -43,6 +47,27 @@ public class Helper {
          }
          Helper = null;
      }
+     
+     public static boolean waitForElementToBeInteractable(WebElement element) {
+    	 try {
+    	 WebElement ele = new WebDriverWait(driver, Duration.ofSeconds(10)).
+					until(ExpectedConditions.elementToBeClickable(element));
+    	 try {
+				ele.click();
+				
+				return true;
+				}
+				catch(Exception e) {
+					//JavascriptExecutor(driver) = 
+				}     
+    	 }
+  		catch(Exception e) {
+  			e.printStackTrace();
+  			
+  		}
+  		return false;
+     }
+    
      public static boolean webClick(WebElement element) {
  		
  		try {
@@ -60,7 +85,7 @@ public class Helper {
  				return true;
  				}
  				catch(Exception e) {
- 					//JavascriptExecutor(driver) =
+ 					//JavascriptExecutor(driver) = 
  				}
  					
  				}
@@ -80,4 +105,5 @@ public class Helper {
  		return false;
  		
  	}
+     
 }
