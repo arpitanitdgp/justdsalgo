@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with valid user name and password and confirm password&quot;, &quot;User is on ...)">runScenario("User click on register button with valid user name and password and confirm password", "User is on ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,42 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with user name but empty password&quot;, &quot;User is on Register page and val...)">runScenario("User click on register button with user name but empty password", "User is on Register page and val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with user name and different password and confirm password&quot;, &quot;User is...)">runScenario("User click on register button with user name and different password and confirm password", "User is...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with username and password fields empty&quot;, &quot;User is on Register page a...)">runScenario("User click on register button with username and password fields empty", "User is on Register page a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on Register &quot;Register&quot;&quot;, &quot;Home Page&quot;)">runScenario("User click on Register "Register"", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on &quot;Get Started&quot; button for the data structure option without login&quot;, &quot;Home Page&quot;)">runScenario("User click on "Get Started" button for the data structure option without login", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User enter username and password less than 8 chars&quot;, &quot;User is on Register page and validate the fie...)">runScenario("User enter username and password less than 8 chars", "User is on Register page and validate the fie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with user name as blank and password and confirm password with valid ...)">runScenario("User click on register button with user name as blank and password and confirm password with valid ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,12 +162,37 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on Sign In &quot;login&quot;&quot;, &quot;Home Page&quot;)">runScenario("User click on Sign In "login"", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The User clicks Get Started button on landing page&quot;, &quot;Get Started Page&quot;)">runScenario("The User clicks Get Started button on landing page", "Get Started Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with password with only numeric value&quot;, &quot;User is on Register page and...)">runScenario("User click on register button with password with only numeric value", "User is on Register page and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User click on register button with user name and password and confirm password as blank&quot;, &quot;User is ...)">runScenario("User click on register button with user name and password and confirm password as blank", "User is ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User select &quot;Arrays&quot; option from the dropbox menu without login&quot;, &quot;Home Page&quot;)">runScenario("User select "Arrays" option from the dropbox menu without login", "Home Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -133,6 +207,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with valid user name and password and confirm password&quot;, &quot;User is on ...)">
+                  </a> <!-- runScenario("User click on register button with valid user name and password and confirm password", "User is on ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with valid user name and password and confirm password","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [New Account Created. You are logged in asNumpyNinjaUser10]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.registerPageSteps.user_should_be_logged_in_successfully(registerPageSteps.java:363)
+	at ✽.User should be logged in successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/register.feature:95)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -141,10 +244,80 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with user name but empty password&quot;, &quot;User is on Register page and val...)">
+                  </a> <!-- runScenario("User click on register button with user name but empty password", "User is on Register page and val...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with user name but empty password","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with user name and different password and confirm password&quot;, &quot;User is...)">
+                  </a> <!-- runScenario("User click on register button with user name and different password and confirm password", "User is...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with user name and different password and confirm password","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">
                   </a> <!-- runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User on login page and login with invalid inputs from Excel "Sheet1" and","SignIn Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with username and password fields empty&quot;, &quot;User is on Register page a...)">
+                  </a> <!-- runScenario("User click on register button with username and password fields empty", "User is on Register page a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with username and password fields empty","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on Register &quot;Register&quot;&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("User click on Register "Register"", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on Register "Register"","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on &quot;Get Started&quot; button for the data structure option without login&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("User click on "Get Started" button for the data structure option without login", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on "Get Started" button for the data structure option without login","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User enter username and password less than 8 chars&quot;, &quot;User is on Register page and validate the fie...)">
+                  </a> <!-- runScenario("User enter username and password less than 8 chars", "User is on Register page and validate the fie...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User enter username and password less than 8 chars","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with user name as blank and password and confirm password with valid ...)">
+                  </a> <!-- runScenario("User click on register button with user name as blank and password and confirm password with valid ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with user name as blank and password and confirm password with valid values","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -161,10 +334,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">
-                  </a> <!-- runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page") -->
+                  <a name="runScenario(&quot;User click on Sign In &quot;login&quot;&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("User click on Sign In "login"", "Home Page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User on login page and login with invalid inputs from Excel "Sheet1" and","SignIn Page")</span>
+                  <span class="parameters">("User click on Sign In "login"","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The User clicks Get Started button on landing page&quot;, &quot;Get Started Page&quot;)">
+                  </a> <!-- runScenario("The User clicks Get Started button on landing page", "Get Started Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The User clicks Get Started button on landing page","Get Started Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -179,12 +362,52 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with password with only numeric value&quot;, &quot;User is on Register page and...)">
+                  </a> <!-- runScenario("User click on register button with password with only numeric value", "User is on Register page and...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with password with only numeric value","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User click on register button with user name and password and confirm password as blank&quot;, &quot;User is ...)">
+                  </a> <!-- runScenario("User click on register button with user name and password and confirm password as blank", "User is ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User click on register button with user name and password and confirm password as blank","User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User on login page and login with invalid inputs from Excel &quot;Sheet1&quot; and&quot;, &quot;SignIn Page&quot;)">
+                  </a> <!-- runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User on login page and login with invalid inputs from Excel "Sheet1" and","SignIn Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User select &quot;Arrays&quot; option from the dropbox menu without login&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("User select "Arrays" option from the dropbox menu without login", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User select "Arrays" option from the dropbox menu without login","Home Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/45/nx7hh1fx2qqdnmqpc17m3mg40000gn/T/testng-eclipse-1196077756/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/45/nx7hh1fx2qqdnmqpc17m3mg40000gn/T/testng-eclipse-2126671736/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -241,28 +464,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 7421);
+data.setCell(0, 3, 9249);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runner.TestRunner')
-data.setCell(1, 3, 6249);
+data.setCell(1, 3, 8138);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runner.TestRunner')
-data.setCell(2, 3, 4825);
+data.setCell(2, 3, 5245);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runner.TestRunner')
-data.setCell(3, 3, 4500);
+data.setCell(3, 3, 5106);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 5093);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 5032);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 5015);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 4996);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 4844);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 4802);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 4492);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 4173);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 4159);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.TestRunner')
+data.setCell(13, 3, 4146);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.TestRunner')
+data.setCell(14, 3, 3994);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.TestRunner')
+data.setCell(15, 3, 3904);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.TestRunner')
+data.setCell(16, 3, 3832);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -290,28 +565,82 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@299a43d9)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7263b0c4)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</span>
-                <span class="method-start">473 ms</span>
+                <span class="method-name">runScenario("The User clicks Get Started button on landing page", "Get Started Page")</span>
+                <span class="method-start">635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on "Get Started" button for the data structure option without login", "Home Page")</span>
+                <span class="method-start">9887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User select "Arrays" option from the dropbox menu without login", "Home Page")</span>
+                <span class="method-start">14381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on Register "Register"", "Home Page")</span>
+                <span class="method-start">19226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on Sign In "login"", "Home Page")</span>
+                <span class="method-start">23131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with username and password fields empty", "User is on Register page a...)</span>
+                <span class="method-start">26964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with user name but empty password", "User is on Register page and val...)</span>
+                <span class="method-start">32211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with user name and password and confirm password as blank", "User is ...)</span>
+                <span class="method-start">36358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User enter username and password less than 8 chars", "User is on Register page and validate the fie...)</span>
+                <span class="method-start">40353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with password with only numeric value", "User is on Register page and...)</span>
+                <span class="method-start">45350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with user name as blank and password and confirm password with valid ...)</span>
+                <span class="method-start">50366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User click on register button with user name and different password and confirm password", "User is...)</span>
+                <span class="method-start">54526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User click on register button with valid user name and password and confirm password", "User is on ...)</span>
+                <span class="method-start">62666 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</span>
-                <span class="method-start">7956 ms</span>
+                <span class="method-start">67470 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</span>
-                <span class="method-start">14210 ms</span>
+                <span class="method-start">71646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page")</span>
+                <span class="method-start">76753 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User on login page and login with valid inputs from Excel "Sheet1" and", "SignIn Page")</span>
-                <span class="method-start">18712 ms</span>
+                <span class="method-start">81848 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">23541 ms</span>
+                <span class="method-start">86884 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
