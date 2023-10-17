@@ -150,5 +150,87 @@ public class ConfigFileReader {
 			throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
 	
+	public String getArrayPageUrl() {
+		String applicationurl = properties.getProperty("url.arraypage");
 
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getlinkedlistPageUrl() {
+		String applicationurl = properties.getProperty("url.listpage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getListPracticeQuesPageUrl() {
+		String applicationurl = properties.getProperty("url.listpracticequespage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getStackPageUrl() {
+		String applicationurl = properties.getProperty("url.stackpage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getStackPracticeQuesPageUrl() {
+		String applicationurl = properties.getProperty("url.stackpracticequespage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getQueuePageUrl() {
+		String applicationurl = properties.getProperty("url.queuePage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
+	
+	public String getQueuePracticeQuesPageUrl() {
+		String applicationurl = properties.getProperty("url.queuepracticequespage");
+
+		if (applicationurl != null)
+
+			return applicationurl;
+
+		else
+
+			throw new RuntimeException("Application url not specified in the config.properties file.");
+	}
 }
