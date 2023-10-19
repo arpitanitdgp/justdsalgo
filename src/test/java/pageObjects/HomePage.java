@@ -26,6 +26,7 @@ public class HomePage extends BaseClass {
 	By arrayLink = By.xpath("//div[@class='dropdown-menu show']/a[1]");
 	By registerLink = By.xpath("//div[@class ='navbar-nav']/ul/a[contains(text(),'Register')]");
 	By signInLink = By.xpath("//div[@class ='navbar-nav']/ul/a[contains(text(),'Sign in')]");
+	By signOutLink = By.xpath("//div[@class ='navbar-nav']/ul/a[contains(text(),'Sign out')]");
 
 	public boolean isDropdownDisplayed() {
 		return driver.findElement(dataStructureDropDwn).isDisplayed();
@@ -60,7 +61,11 @@ public class HomePage extends BaseClass {
 
 	public String verifyPage() {
 		return driver.getCurrentUrl();
-//		}
 	}
+	
+	public void clickSignout() {
+		driver.findElement(signOutLink).click();
+	}
+	
 
 }

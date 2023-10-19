@@ -63,7 +63,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 			System.out.println("hello");
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
@@ -124,7 +124,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 			System.out.println("hello");
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
@@ -166,7 +166,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -196,7 +196,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -237,7 +237,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -271,7 +271,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -304,7 +304,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block
@@ -337,7 +337,7 @@ public class registerPageSteps extends BaseClass {
 		List<Map<String, String>> testdata = null;
 		try {
 			testdata = reader.getData(
-					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/register.xlsx",
+					"/Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/Exceldata/Register.xlsx",
 					sheetname);
 		} catch (org.apache.poi.openxml4j.exceptions.InvalidFormatException e) {
 			// TODO Auto-generated catch block

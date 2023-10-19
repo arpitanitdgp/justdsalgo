@@ -1,5 +1,4 @@
-Feature:  
-	User navigate to Data Structure introduction Page for selected Topics covered and click on Try Here button 
+Feature: User navigate to Data Structure introduction Page for selected Topics covered and click on Try Here button 
 
 @ds 
 Scenario Outline: User navigate to Data Structure introduction Page for selected Topics covered and click on Try Here button 

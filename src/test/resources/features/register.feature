@@ -87,7 +87,7 @@ Examples:
       | Sheet1         |         6 | 
       
       
-@teacher
+@regvalid
 Scenario Outline: User click on register button with valid user name and password and confirm password
 Given New user is on Register page
 When User enter valid username "<Sheetname>" and password <RowNumber> and confirm password

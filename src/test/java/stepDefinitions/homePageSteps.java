@@ -61,4 +61,17 @@ public class homePageSteps extends BaseClass {
 		assertEquals(url, configFileReader.getLoginPageUrl());
 	}
 
+	@When("User click signout button")
+	public void user_click_signout_button() {
+		homePage = new HomePage(Helper.getDriver());
+		homePage.clickSignout();
+	}
+
+	@Then("User is redirected to home page")
+	public void user_is_redirected_to_home_page() {
+		homePage = new HomePage(Helper.getDriver());
+		String url = homePage.verifyPage();
+		assertEquals(url, configFileReader.getHomePageUrl());
+	}
+
 }

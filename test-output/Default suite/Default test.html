@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>50/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 16 19:48:01 IST 2023</td>
+<td>Started on:</td><td>Thu Oct 19 13:11:53 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>587 seconds (587381 ms)</td>
+<tr><td>Total time:</td><td>151 seconds (151530 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,267 +76,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Array data structure page and try practice questions with invalid code", "User navigate to Array data structure Page and try different operations on Arrays"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
+<td><div><pre>java.lang.AssertionError: expected [] but found [hello]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at stepDefinitions.dataStructureSteps.user_should_get_error_message_alert_window(dataStructureSteps.java:96)
-	at ✽.User should get error message alert window(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/array.feature:68)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1176013449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1176013449'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.dataStructureSteps.user_should_see_code_executed_successfully(dataStructureSteps.java:136)
+	at ✽.User should see code executed successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/tree.feature:232)
+</pre></div><a href='#' onClick='toggleBox("stack-trace258721628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace258721628'><pre>java.lang.AssertionError: expected [] but found [hello]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at stepDefinitions.dataStructureSteps.user_should_get_error_message_alert_window(dataStructureSteps.java:96)
-	at ✽.User should get error message alert window(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/array.feature:68)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.dataStructureSteps.user_should_see_code_executed_successfully(dataStructureSteps.java:136)
+	at ✽.User should see code executed successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/tree.feature:232)
 </pre></div></td>
 <td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Data Structure introduction Page for selected Topics covered and click on Try Here button", "Unknown"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Sign in&apos;)]&quot;}
-  (Session info: chrome=117.0.5938.149)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2182ca67af33db5cabed1ce42bb54597, findElement {using=xpath, value=//a[contains(text(), &apos;Sign in&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53790}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53790/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2182ca67af33db5cabed1ce42bb54597
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.signInPage.clickSignInLink(signInPage.java:28)
-	at stepDefinitions.signInPageSteps.the_user_is_on_signin_page(signInPageSteps.java:35)
-	at ✽.The user is on signin page(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1051786632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1051786632'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Sign in&apos;)]&quot;}
-  (Session info: chrome=117.0.5938.149)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2182ca67af33db5cabed1ce42bb54597, findElement {using=xpath, value=//a[contains(text(), &apos;Sign in&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53790}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53790/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2182ca67af33db5cabed1ce42bb54597
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.signInPage.clickSignInLink(signInPage.java:28)
-	at stepDefinitions.signInPageSteps.the_user_is_on_signin_page(signInPageSteps.java:35)
-	at ✽.The user is on signin page(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:6)
-</pre></div></td>
-<td>2</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Enter valid Python code in tryEditor and click Run button", "Unknown"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Sign in&apos;)]&quot;}
-  (Session info: chrome=117.0.5938.149)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba7a763a8772c5e9ad4721831b07a1e0, findElement {using=xpath, value=//a[contains(text(), &apos;Sign in&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ba7a763a8772c5e9ad4721831b07a1e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.signInPage.clickSignInLink(signInPage.java:28)
-	at stepDefinitions.signInPageSteps.the_user_is_on_signin_page(signInPageSteps.java:35)
-	at ✽.The user is on signin page(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:40)
-</pre></div><a href='#' onClick='toggleBox("stack-trace752679590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752679590'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(), &apos;Sign in&apos;)]&quot;}
-  (Session info: chrome=117.0.5938.149)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba7a763a8772c5e9ad4721831b07a1e0, findElement {using=xpath, value=//a[contains(text(), &apos;Sign in&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ba7a763a8772c5e9ad4721831b07a1e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.signInPage.clickSignInLink(signInPage.java:28)
-	at stepDefinitions.signInPageSteps.the_user_is_on_signin_page(signInPageSteps.java:35)
-	at ✽.The user is on signin page(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:40)
-</pre></div></td>
-<td>31</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with valid user name and password and confirm password", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [New Account Created. You are logged in asNumpyNinjaUser6]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinitions.registerPageSteps.user_should_be_logged_in_successfully(registerPageSteps.java:363)
-	at ✽.User should be logged in successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/register.feature:95)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1492290654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1492290654'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [New Account Created. You are logged in asNumpyNinjaUser6]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDefinitions.registerPageSteps.user_should_be_logged_in_successfully(registerPageSteps.java:363)
-	at ✽.User should be logged in successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/register.feature:95)
-</pre></div></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Array data structure page and try practice questions", "User navigate to Array data structure Page and try different operations on Arrays"</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 8}
-  (Session info: chrome=117.0.5938.149): SyntaxError: bad input on line 8
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa46566e9686d32be272a5c96183f8e8, findElement {using=xpath, value=//*[@id=&apos;output&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53737/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa46566e9686d32be272a5c96183f8e8
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.dataStructure.getCodeExecuteResult(dataStructure.java:84)
-	at stepDefinitions.dataStructureSteps.user_should_see_code_executed_successfully(dataStructureSteps.java:136)
-	at ✽.User should see code executed successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/array.feature:32)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1014091582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1014091582'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 8}
-  (Session info: chrome=117.0.5938.149): SyntaxError: bad input on line 8
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa46566e9686d32be272a5c96183f8e8, findElement {using=xpath, value=//*[@id=&apos;output&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53737/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa46566e9686d32be272a5c96183f8e8
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pageObjects.dataStructure.getCodeExecuteResult(dataStructure.java:84)
-	at stepDefinitions.dataStructureSteps.user_should_see_code_executed_successfully(dataStructureSteps.java:136)
-	at ✽.User should see code executed successfully(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/array.feature:32)
-</pre></div></td>
-<td>12</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enter valid and invalid python code in try text Editor", "Unknown"</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=117.0.5938.149)
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba7a763a8772c5e9ad4721831b07a1e0, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ba7a763a8772c5e9ad4721831b07a1e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1191)
-	at pageObjects.dataStructure.verifyEditorErrorMessage(dataStructure.java:75)
-	at stepDefinitions.dataStructureSteps.user_should_get_error_message_alert_window(dataStructureSteps.java:96)
-	at ✽.User should get error message alert window(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:30)
-</pre></div><a href='#' onClick='toggleBox("stack-trace78580816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace78580816'><pre>org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=117.0.5938.149)
-Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.1&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ba7a763a8772c5e9ad4721831b07a1e0, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.149, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/45/nx7hh1fx2qq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 117.0.5938.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ba7a763a8772c5e9ad4721831b07a1e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1191)
-	at pageObjects.dataStructure.verifyEditorErrorMessage(dataStructure.java:75)
-	at stepDefinitions.dataStructureSteps.user_should_get_error_message_alert_window(dataStructureSteps.java:96)
-	at ✽.User should get error message alert window(file:///Users/praveenkumarsharma/eclipse-workspace/justdsalgo/src/test/resources/features/dataStructure.feature:30)
-</pre></div></td>
-<td>69</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -347,255 +109,60 @@ Session ID: ba7a763a8772c5e9ad4721831b07a1e0
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate implementation in stack page", "User navigate to Stack data structure Page and try different operations on Stack"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@5db6b9cd</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with user name and password and confirm password as blank", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>13</td>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@5db6b9cd</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>15</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate applications in stack page", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>15</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Array data structure page and try print invalid python code", "User navigate to Array data structure Page and try different operations on Arrays"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User select "Arrays" option from the dropbox menu without login", "Home Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validate creating linked list page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>17</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Array data structure page and try print valid python code", "User navigate to Array data structure Page and try different operations on Arrays"</td>
-<td></td>
-<td>17</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for Creating link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page for invalid code", "User navigate to Queue data structure Page and try different operations on Queues"</td>
-<td></td>
-<td>13</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on Register "Register"", "Home Page"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates implement linked list link in python page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>11</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate practice questions page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
-<td></td>
-<td>6</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates traversal link page", "User navigate to List data structure Page and try different operations on List"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page for invalid code", "User navigate to Queue data structure Page and try different operations on Queues"</td>
-<td></td>
-<td>13</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for implement link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validate Introduction link page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>13</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with valid inputs from Excel "Sheet1" and", "SignIn Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate operations in stack page for invalid code", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>11</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
-<td></td>
-<td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates insertion link page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to stack data structure page and validates practice questions page", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>6</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for traversal link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with username and password fields empty", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enter username and password less than 8 chars", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to queue data structure page and validate operations on queue page", "User navigate to Queue data structure Page and try different operations on Queues"</td>
-<td></td>
-<td>12</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate implementation in stack page for invalid code", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>9</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with password with only numeric value", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate operations in stack page", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>12</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The User clicks Get Started button on landing page", "Get Started Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates deletion link page", "User navigate to List data structure Page and try different operations on List"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
 <td>16</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for deletion link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to tree data structure page and validate operations on tree page", "User navigate to Tree data structure Page and try different operations on Trees"</td>
 <td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User on login page and login with invalid inputs from Excel "Sheet1" and", "SignIn Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for types of link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on Sign In "login"", "Home Page"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with user name but empty password", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Data Structure Practice Question Page", "Unknown"</td>
-<td></td>
-<td>7</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with user name as blank and password and confirm password with valid values", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates types of linked list link page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>14</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on register button with user name and different password and confirm password", "User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for insertion link list in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to linked list data structure page and validates practice questions page", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>7</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validates error message for Introduction in try editor page for invalid code", "User navigate to List data structure Page and try different operations on List"</td>
-<td></td>
-<td>10</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigate to Stack list data structure page and validate applications link in stack page for invalid code", "User navigate to Stack data structure Page and try different operations on Stack"</td>
-<td></td>
-<td>11</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User click on "Get Started" button for the data structure option without login", "Home Page"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@6f15d60e</td></tr>
+<td>16</td>
+<td>runner.TestRunner@5db6b9cd</td></tr>
 </table><p>
 </body>
 </html>

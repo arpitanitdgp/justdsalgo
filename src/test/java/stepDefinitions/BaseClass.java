@@ -9,6 +9,10 @@ import pageObjects.arrayPage;
 import pageObjects.listPage;
 import pageObjects.queuePage;
 import pageObjects.stackPage;
+import pageObjects.treePage;
+import pageObjects.graphPage;
+
+
 
 
 public class BaseClass {
@@ -21,5 +25,8 @@ public class BaseClass {
  public listPage listPg;
  public queuePage queuePg;
  public stackPage stackPg;
+ public treePage treePg;
+ public graphPage graphPg;
+
 
 }
