@@ -11,7 +11,8 @@ import pageObjects.graphPage;
 
 public class graphPageSteps extends BaseClass {
 
-	ConfigFileReader configFileReader = new ConfigFileReader();
+	ConfigFileReader configFileReader = new ConfigFileReader();;
+
 	@When("User click Get Started button for the graph card")
 	public void user_click_get_started_button_for_graph_card() {
 		graphPg = new graphPage(Helper.getDriver());
@@ -47,4 +48,3 @@ public class graphPageSteps extends BaseClass {
 		graphPg.clickGraphPracticeQues();
 	}
 }
-	

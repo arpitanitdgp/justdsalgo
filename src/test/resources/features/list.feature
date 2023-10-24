@@ -275,3 +275,19 @@ Scenario Outline: User validates error message for deletion link list in try edi
 		| Sheetname | RowNumber |
 		| Sheet1    |         3 |
 		
+		
+@list
+Scenario Outline: User navigate to graph data structure page and and trying to sign out
+    Given The user is on signin page
+    When The user enter sheet "<Sheetname>" and <RowNumber> 
+		And  click login button 
+		When User click Get Started button for the list card 
+		Then User should redirected to linked list page
+		When User click signout button
+		Then User is redirected to home page
+		
+Examples: 
+		| Sheetname | RowNumber |
+		| Sheet1    |         4 |
+
+		

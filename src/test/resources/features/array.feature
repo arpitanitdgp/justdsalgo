@@ -1,7 +1,7 @@
 Feature: User navigate to Array data structure Page and try different operations on Arrays
 
 
- @array
+ @array1
  Scenario Outline: User navigate to Array data structure page and try print valid python code
     Given The user is on signin page
     When The user enter sheet "<Sheetname>" and <RowNumber> 
@@ -19,7 +19,7 @@ Feature: User navigate to Array data structure Page and try different operations
 		| Sheet1    |         4 |
   
   
- @array
+ @array2
  Scenario Outline: User navigate to Array data structure page and try practice questions
     Given The user is on signin page
     When The user enter sheet "<Sheetname>" and <RowNumber> 
@@ -34,9 +34,9 @@ Feature: User navigate to Array data structure Page and try different operations
  
 	Examples: 
 		| Sheetname | RowNumber |
-		| Sheet1    |         5 |
+		| Sheet1    |         4 |
 		
- @array
+ @array3
  Scenario Outline: User navigate to Array data structure page and try print invalid python code
     Given The user is on signin page
     When The user enter sheet "<Sheetname>" and <RowNumber> 
@@ -55,7 +55,7 @@ Feature: User navigate to Array data structure Page and try different operations
 		| Sheet1    |         3 |
 		
 
-@array
+@array4
  Scenario Outline: User navigate to Array data structure page and try practice questions with invalid code
     Given The user is on signin page
     When The user enter sheet "<Sheetname>" and <RowNumber> 

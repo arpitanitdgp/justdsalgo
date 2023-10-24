@@ -1,7 +1,6 @@
-@tag
 Feature: User is on Register page and validate the fields "usename","password",and "password confirmation" with valid/invalid data
 
-@hello
+@register
 Scenario Outline: User click on register button with username and password fields empty
 Given New user is on Register page
 When User enters username "<Sheetname>" and password <RowNumber> both as blank
@@ -14,7 +13,7 @@ Then User should get error message for blank field
       | Sheet1         |         0 |
       
  
-@hello
+@register
 Scenario Outline: User click on register button with user name but empty password
 Given New user is on Register page
 When User enter username "<Sheetname>" and password <RowNumber> as blank
@@ -26,7 +25,7 @@ Examples:
       | Sheet1         |         1 |
       
 
-@hello 
+@register 
 Scenario Outline: User click on register button with user name and password and confirm password as blank
 Given New user is on Register page
 When  User enter username "<Sheetname>" and password <RowNumber> but confirm password as blank
@@ -38,7 +37,7 @@ Examples:
       | Sheet1         |         2 |
       
 
-@8chars
+@register
 Scenario Outline: User enter username and password less than 8 chars
 Given New user is on Register page
 When  User enter username "<Sheetname>" and password <RowNumber> less than 8 chars
@@ -51,7 +50,7 @@ Examples:
       
 
 
-@mismatch
+@register
 Scenario Outline: User click on register button with password with only numeric value
 Given New user is on Register page
 When User enter username "<Sheetname>" and password <RowNumber> with numeric value only
@@ -63,7 +62,7 @@ Examples:
       | Sheet1         |         4 |
  
 
-@haha
+@register
 Scenario Outline: User click on register button with user name as blank and password and confirm password with valid values
 Given New user is on Register page
 When  User enter username "<Sheetname>" as blank and password <RowNumber> with valid value
@@ -75,7 +74,7 @@ Examples:
       | Sheet1         |         5 | 
       
 
-@mismatch
+@register
 Scenario Outline: User click on register button with user name and different password and confirm password
 Given New user is on Register page
 When User enter username "<Sheetname>" and different password <RowNumber> and confirm password
@@ -87,7 +86,7 @@ Examples:
       | Sheet1         |         6 | 
       
       
-@regvalid
+@register
 Scenario Outline: User click on register button with valid user name and password and confirm password
 Given New user is on Register page
 When User enter valid username "<Sheetname>" and password <RowNumber> and confirm password

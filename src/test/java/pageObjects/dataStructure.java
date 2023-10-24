@@ -1,6 +1,9 @@
 package pageObjects;
 
 import static org.testng.Assert.assertTrue;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -88,7 +91,9 @@ public class dataStructure extends BaseClass {
 		Helper.webClick(driver.findElement(practiceQues));
 	}
 
+	@SuppressWarnings("deprecation")
 	public String verifyPracticeQuesPage() {
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver.getCurrentUrl();
 	}
 }

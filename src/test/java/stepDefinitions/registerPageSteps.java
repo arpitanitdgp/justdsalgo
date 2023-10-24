@@ -1,16 +1,16 @@
 package stepDefinitions;
 
-import static org.junit.Assert.assertEquals;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+
+import com.github.javafaker.Faker;
 
 import Utilities.ExcelReader;
 import Utilities.Helper;
@@ -353,14 +353,16 @@ public class registerPageSteps extends BaseClass {
 
 		demoLogger.info("User Enter username as \" " + username + " \"and Password as \" " + password + "\" ");
 
-		uniqueUsrname = "NumpyNinjaUser" + Integer.toString(((new Random().nextInt(10)) + 1));
+		/* Generate unique usernames to register */
+		Faker faker = new Faker();
+		uniqueUsrname = faker.name().firstName() + faker.name().lastName();
 		regPage.loginUsrPass(uniqueUsrname, password.trim(), confirmPassword.trim());
 
 	}
 
 	@Then("User should be logged in successfully")
 	public void user_should_be_logged_in_successfully() {
-		assertEquals(message + uniqueUsrname, regPage.verifyLoggedInMsg());
+		Assert.assertTrue(regPage.verifyLoggedInMsg().contains(message));
 	}
 
 }

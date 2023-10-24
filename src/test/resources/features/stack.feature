@@ -1,4 +1,5 @@
-Feature: User navigate to Stack data structure Page and try different operations on Stack
+		@stack
+		Feature: User navigate to Stack data structure Page and try different operations on Stack
 
 
 @stack 

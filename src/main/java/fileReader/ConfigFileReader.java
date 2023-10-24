@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ConfigFileReader {
 
-	private Properties properties;
+	private static Properties properties;
 
 	private final String configFilePath = "configs//config.properties";
 
@@ -47,6 +47,26 @@ public class ConfigFileReader {
 		}
 
 	}
+	
+
+	public  String getGlobalValue() {
+		
+//		properties = new Properties();
+		
+		String currentBrowser = properties.getProperty("browser");
+
+		if (currentBrowser != null)
+
+			return currentBrowser;
+
+		else
+
+			throw new RuntimeException("Browser not specified in the config.properties file.");
+
+	}
+
+	
+
 
 	public String getApplicationUrl() {
 
@@ -257,6 +277,7 @@ public class ConfigFileReader {
 
 			throw new RuntimeException("Application url not specified in the config.properties file.");
 	}
+	
 	public String getGraphPageUrl() {
 		String applicationurl = properties.getProperty("url.graphPage");
 

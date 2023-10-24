@@ -1,7 +1,11 @@
 package stepDefinitions;
 import static org.testng.Assert.assertEquals;
 
+import java.time.Duration;
+
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import Utilities.Helper;
 import fileReader.ConfigFileReader;
@@ -58,6 +62,9 @@ public class homePageSteps extends BaseClass {
 	@Then("User should redirected to login \"([^\"]*)\" page$")
 	public void user_should_redirected_to_login_page(String login) {
 		String url = homePage.verifyPage();
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
 		assertEquals(url, configFileReader.getLoginPageUrl());
 	}
 

@@ -11,7 +11,7 @@ import stepDefinitions.BaseClass;
 public class registerPage extends BaseClass {
 
 	WebDriver driver;
-	ConfigFileReader configFileReader;
+	ConfigFileReader configFileReader = new ConfigFileReader();
 
 	public registerPage(WebDriver webDriver) {
 		this.driver = webDriver;

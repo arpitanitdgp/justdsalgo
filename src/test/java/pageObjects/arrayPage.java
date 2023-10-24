@@ -39,6 +39,6 @@ public class arrayPage extends BaseClass {
 
 	public void clickPracticeQuestions() {
 		driver.findElement(practiceQues).click();
-		driver.findElement(searchArray).click();
+		Helper.webClick(driver.findElement(searchArray));
 	}
 }
