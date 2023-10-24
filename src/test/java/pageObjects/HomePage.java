@@ -2,8 +2,6 @@ package pageObjects;
 
 import static org.testng.Assert.assertEquals;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -61,9 +59,8 @@ public class HomePage extends BaseClass {
 
 	}
 
-	@SuppressWarnings("deprecation")
 	public String verifyPage() {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver.getCurrentUrl();
 	}
 	

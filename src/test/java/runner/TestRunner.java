@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(plugin = { "pretty", "html:target/ArpitaGhosh.html", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"  }, // reporting
 																														// purpose
 monochrome = true, // console output color
-//tags = "@Arpita", // tags from feature file
+tags = "@Home", // tags from feature file
 features = { "src/test/resources/features" }, // location of feature files - folder name
 glue = "stepDefinitions") // location of step definition files - package name
 
