@@ -20,6 +20,8 @@ import pageObjects.registerPage;
 import pageObjects.signInPage;
 import pageObjects.stackPage;
 import pageObjects.treePage;
+//import org.openqa.selenium.NoSuchFrameException;
+
 
 public class BaseClass {
 	public LandingPage landingPage;
@@ -56,10 +58,12 @@ public class BaseClass {
 			LoggerLoad.info("Testing on safari");
 			WebDriverManager.safaridriver().setup();
 			driver = new SafariDriver();
+			
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		return driver;
+
 	}
 
 	

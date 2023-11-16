@@ -4247,3 +4247,530 @@
 [INFO ]2023-10-2412:46:31.178[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
 [INFO ]2023-10-2412:46:31.338[main]stepDefinitions.signInPageSteps1)-User clicks on login button
 [INFO ]2023-10-2412:46:31.338[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1511:22:46.552[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1511:22:47.041[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " " 
+[INFO ]2023-11-1511:22:47.178[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1511:22:47.178[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1511:22:47.287[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1511:22:51.221[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1511:22:51.283[main]stepDefinitions.signInPageSteps1)-User Enter username as " username "and Password as " sdet84batch" 
+[INFO ]2023-11-1511:22:51.428[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1511:22:51.429[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1511:22:51.944[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1511:22:56.852[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1511:22:56.918[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet86 "and Password as " username" 
+[INFO ]2023-11-1511:22:57.162[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1511:22:57.162[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1511:22:57.686[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1511:23:01.474[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1511:23:01.523[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1511:23:01.688[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1511:23:01.688[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1511:23:02.595[main]stepDefinitions.signInPageSteps1)-Actual Message :  You are logged in
+[INFO ]2023-11-1512:47:02.486[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1512:57:54.525[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:17:50.721[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:17:55.959[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1522:17:56.614[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " " 
+[INFO ]2023-11-1522:17:56.912[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1522:17:56.913[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1522:17:57.004[main]stepDefinitions.signInPageSteps1)-Actual Message :  Fill out this field
+[INFO ]2023-11-1522:22:25.385[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:32:34.310[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:33:24.846[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:35:28.021[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:36:01.758[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1522:39:05.717[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:47:59.114[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:53:31.568[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:53:37.198[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1522:53:37.896[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " " 
+[INFO ]2023-11-1522:53:38.106[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1522:53:38.106[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1522:53:38.225[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1522:53:38.652[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:53:42.636[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1522:53:42.691[main]stepDefinitions.signInPageSteps1)-User Enter username as " username "and Password as " sdet84batch" 
+[INFO ]2023-11-1522:53:42.833[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1522:53:42.834[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1522:53:43.363[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1522:53:43.659[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:53:47.524[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1522:53:47.583[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet86 "and Password as " username" 
+[INFO ]2023-11-1522:53:47.721[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1522:53:47.721[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1522:53:48.204[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1522:53:48.447[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1522:53:52.239[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1522:53:52.291[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1522:53:52.442[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1522:53:52.442[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1522:53:53.327[main]stepDefinitions.signInPageSteps1)-Actual Message :  You are logged in
+[INFO ]2023-11-1523:10:45.025[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1523:32:39.446[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1523:36:51.724[main]Utilities.LoggerLoad1)-Testing on safari
+[INFO ]2023-11-1617:00:16.407[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:00:23.283[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:00:23.895[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:24.044[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:00:24.044[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:00:30.604[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:31.094[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:00:34.890[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:00:34.945[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:35.084[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:00:35.085[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:00:47.249[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:48.067[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:00:51.893[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:00:51.946[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:52.089[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:00:52.089[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:00:57.330[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:00:57.744[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:01.437[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:01:01.473[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:01.633[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:01:01.633[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:01:11.999[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:23.244[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:27.077[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:01:27.116[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:27.259[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:01:27.259[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:01:32.138[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:32.593[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:36.337[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:01:36.372[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:36.503[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:01:36.503[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:01:41.455[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:41.860[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:45.710[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:01:45.749[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:45.897[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:01:45.897[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:01:48.737[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:53.285[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:01:57.033[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:01:57.086[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:01:57.217[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:01:57.217[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:05.683[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:06.072[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:02:09.963[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:02:09.990[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:10.116[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:02:10.116[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:18.273[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:18.925[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:02:22.635[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:02:22.700[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:22.833[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:02:22.834[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:30.714[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:31.215[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:02:35.246[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:02:35.280[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:35.453[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:02:35.454[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:41.593[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:42.285[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:02:45.989[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:02:46.020[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:46.151[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:02:46.151[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:49.259[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:02:53.020[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:02:53.050[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:02:53.182[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:02:53.182[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:02:55.706[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:00.615[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:05.128[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:09.137[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:16.228[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:20.158[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:03:20.203[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:20.418[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:03:20.418[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:03:26.126[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:26.532[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:31.151[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:03:31.188[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:31.327[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:03:31.327[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:03:38.220[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:38.629[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:42.430[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:03:42.453[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:42.607[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:03:42.607[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:03:52.742[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:53.141[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:03:56.895[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:03:56.936[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:03:57.079[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:03:57.079[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:04:02.653[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:03.049[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:04:06.707[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:04:06.755[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:06.884[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:04:06.884[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:04:19.139[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:19.729[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:04:23.512[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:04:23.546[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:23.683[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:04:23.683[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:04:36.213[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:36.612[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:04:40.380[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:04:40.402[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:40.526[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:04:40.527[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:04:45.833[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:46.217[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:04:49.965[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:04:49.999[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:50.152[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:04:50.152[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:04:53.785[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:04:57.435[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:04:57.454[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:04:57.575[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:04:57.576[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:05:03.048[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:03.444[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:05:07.167[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:05:07.186[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:07.316[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:05:07.316[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:05:15.821[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:16.215[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:05:19.960[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:05:19.990[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:20.127[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:05:20.127[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:05:26.415[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:26.809[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:05:30.567[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:05:30.589[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:30.731[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:05:30.731[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:05:36.326[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:36.692[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:05:40.507[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:05:40.527[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:40.673[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:05:40.673[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:05:49.376[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:49.779[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:05:53.554[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:05:53.574[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:05:53.704[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:05:53.705[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:06:01.648[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:02.059[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:06:05.807[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:06:05.826[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:05.954[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:06:05.954[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:06:11.373[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:11.776[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:06:15.476[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:06:15.497[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:15.623[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:06:15.623[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:06:18.645[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:06:22.344[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:06:22.374[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:22.515[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:06:22.515[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:06:34.261[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:34.641[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:06:39.748[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:06:39.998[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:42.717[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:06:42.717[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:06:50.945[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:51.382[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:06:55.160[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:06:55.202[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:06:55.334[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:06:55.334[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:00.141[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:00.579[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:04.433[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:04.463[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:04.599[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:04.599[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:10.072[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:10.451[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:14.085[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:14.110[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:14.244[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:14.244[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:17.141[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:20.929[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:20.949[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:21.099[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:21.099[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:25.883[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:26.261[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:30.074[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:30.105[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:30.265[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:30.265[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:35.118[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:35.507[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:39.263[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:39.278[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:39.400[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:39.400[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:46.578[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:46.978[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:07:50.797[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:07:50.814[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:50.947[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:07:50.947[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:07:58.949[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:07:59.322[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:03.084[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:03.104[main]stepDefinitions.signInPageSteps1)-User Enter username as "  "and Password as " " 
+[INFO ]2023-11-1617:08:03.506[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:07.104[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:07.127[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " " 
+[INFO ]2023-11-1617:08:07.587[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:11.344[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:11.361[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpita@1234567" 
+[INFO ]2023-11-1617:08:11.684[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:15.418[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:15.434[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpi12" 
+[INFO ]2023-11-1617:08:16.349[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:20.204[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:20.241[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " "123456789"" 
+[INFO ]2023-11-1617:08:21.474[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:25.271[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:25.298[main]stepDefinitions.signInPageSteps1)-User Enter username as "  "and Password as " Arpita@1234567" 
+[INFO ]2023-11-1617:08:25.843[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:29.775[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:29.800[main]stepDefinitions.signInPageSteps1)-User Enter username as " arpitaghoshhh "and Password as " Arpita@1234567" 
+[INFO ]2023-11-1617:08:30.772[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:34.783[main]stepDefinitions.signInPageSteps1)-User is on Register Page
+[INFO ]2023-11-1617:08:34.814[main]stepDefinitions.signInPageSteps1)-User Enter username as " null "and Password as " Arpita@12345678" 
+[INFO ]2023-11-1617:08:36.622[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:40.320[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:08:40.347[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " " 
+[INFO ]2023-11-1617:08:40.471[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:08:40.471[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1617:08:40.565[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1617:08:40.784[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:44.637[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:08:44.662[main]stepDefinitions.signInPageSteps1)-User Enter username as " username "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:08:44.792[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:08:44.793[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1617:08:45.285[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1617:08:45.512[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:49.173[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:08:49.192[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet86 "and Password as " username" 
+[INFO ]2023-11-1617:08:49.342[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:08:49.342[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  Please fill in this field.
+[INFO ]2023-11-1617:08:49.834[main]stepDefinitions.signInPageSteps1)-Actual Message :  Please fill in this field.
+[INFO ]2023-11-1617:08:50.063[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:53.682[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:08:53.699[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:08:53.835[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:08:53.835[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:08:54.690[main]stepDefinitions.signInPageSteps1)-Actual Message :  You are logged in
+[INFO ]2023-11-1617:08:54.908[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:08:58.574[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:08:58.608[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:08:58.757[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:08:58.757[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:09.281[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:09.653[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:09:13.429[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:09:13.446[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:13.569[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:09:13.569[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:20.519[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:20.899[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:09:24.752[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:09:24.771[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:24.899[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:09:24.900[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:29.700[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:30.081[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:09:33.905[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:09:33.921[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:34.055[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:09:34.055[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:36.882[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:09:40.530[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:09:40.557[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:40.710[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:09:40.710[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:47.983[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:48.349[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:09:52.144[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:09:52.162[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:52.294[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:09:52.294[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:09:57.147[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:09:57.600[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:01.402[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:01.419[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:01.562[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:01.562[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:10:06.604[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:07.011[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:10.745[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:10.763[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:10.899[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:10.900[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:10:20.347[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:20.928[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:24.774[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:24.788[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:24.919[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:24.919[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:10:30.230[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:30.625[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:34.454[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:34.477[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:34.611[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:34.611[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:10:41.547[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:41.934[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:45.731[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:45.747[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:45.880[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:45.880[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:10:51.024[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:51.398[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:10:55.148[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:10:55.169[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:10:55.318[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:10:55.318[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:11:09.008[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:09.388[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:11:13.255[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:11:13.291[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:13.457[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:11:13.457[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:11:18.993[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:19.385[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:11:23.053[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:11:23.069[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:23.202[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:11:23.203[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:11:30.514[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:30.934[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:11:34.698[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:11:34.725[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:34.856[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:11:34.856[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:11:42.384[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:42.816[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:11:46.511[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:11:46.536[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:46.676[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:11:46.676[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:11:51.961[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:52.357[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:11:56.014[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:11:56.030[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:11:56.155[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:11:56.156[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:12:10.100[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:10.498[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:12:14.246[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:12:14.266[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:14.399[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:12:14.399[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:12:25.902[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:26.452[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:12:30.339[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:12:30.358[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:30.504[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:12:30.504[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:12:42.648[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:43.079[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:12:46.827[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:12:46.843[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:46.978[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:12:46.978[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:12:58.954[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:12:59.342[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:13:03.093[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:13:03.112[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:03.244[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:13:03.244[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:13:11.345[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:11.756[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:13:15.489[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:13:15.509[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:15.652[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:13:15.652[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:13:22.093[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:22.486[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:13:26.246[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:13:26.274[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:26.414[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:13:26.414[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:13:31.699[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:32.115[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:13:35.785[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:13:35.814[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:35.951[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:13:35.951[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:13:48.538[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:48.921[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:13:52.756[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:13:52.774[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:52.902[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:13:52.902[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:13:57.939[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:13:58.281[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:14:02.055[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:14:02.073[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:02.211[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:14:02.212[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:14:15.113[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:15.612[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:14:19.549[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:14:19.573[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:19.772[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:14:19.773[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:14:24.817[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:25.325[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:14:29.153[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:14:29.172[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:29.311[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:14:29.311[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:14:39.697[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:40.083[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:14:43.917[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:14:43.932[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:44.063[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:14:44.063[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:14:56.192[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:14:56.681[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:15:00.492[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:15:00.506[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:15:00.653[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:15:00.653[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:15:12.402[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:15:12.803[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:15:16.647[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:15:16.681[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:15:16.820[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:15:16.820[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
+[INFO ]2023-11-1617:15:23.529[main]stepDefinitions.dataStructureSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:15:23.948[main]Utilities.LoggerLoad1)-Testing on Edge
+[INFO ]2023-11-1617:15:27.714[main]stepDefinitions.signInPageSteps1)-User is on Sign In Page
+[INFO ]2023-11-1617:15:27.729[main]stepDefinitions.signInPageSteps1)-User Enter username as " Numpysdet84 "and Password as " sdet84batch" 
+[INFO ]2023-11-1617:15:27.867[main]stepDefinitions.signInPageSteps1)-User clicks on login button
+[INFO ]2023-11-1617:15:27.867[main]stepDefinitions.signInPageSteps1)-Expected Message - Excel Sheet :  You are logged in
